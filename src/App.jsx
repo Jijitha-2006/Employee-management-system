@@ -1,5 +1,5 @@
 import { Provider } from "react-redux";
-import { BrowserRouter, Routes, Route, Navigate } from "react-router-dom";
+import { HashRouter, Routes, Route, Navigate } from "react-router-dom";
 import { store } from "./store";
 import { ThemeProvider } from "./Context/ThemeContext";
 
@@ -20,7 +20,7 @@ function App() {
   return (
     <Provider store={store}>
       <ThemeProvider>
-        <BrowserRouter>
+        <HashRouter>
           <Routes>
             <Route
               path="/"
@@ -41,7 +41,7 @@ function App() {
             {/* Optional: redirect unknown routes */}
             <Route path="*" element={<Navigate to="/" replace />} />
           </Routes>
-        </BrowserRouter>
+        </HashRouter>
       </ThemeProvider>
     </Provider>
   );
