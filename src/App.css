@@ -1,0 +1,15 @@
+/* Login input autofill styling */
+/* .login-inputs input:-webkit-autofill,
+.login-inputs input:-webkit-autofill:hover,
+.login-inputs input:-webkit-autofill:focus {
+  -webkit-text-fill-color: #1f2937 !important;
+  -webkit-box-shadow: 0 0 0 1000px white inset !important;
+} */
+
+/* Keep the floating label in the correct position */
+/* .login-inputs input:focus ~ label,
+.login-inputs input:not(:placeholder-shown) ~ label,
+.login-inputs input:-webkit-autofill ~ label {
+  top: 0;
+  transform: translateY(-50%) scale(0.85);
+} */
