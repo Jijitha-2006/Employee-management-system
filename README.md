@@ -1,4 +1,16 @@
-# React + Vite
+# Employee Management System
+
+## Deploy with GitHub Pages
+
+1. Run `npm run build` and commit the generated root `index.html`, `assets/`, `favicon.svg`, and `icons.svg`.
+2. In the repository, open **Settings → Pages**.
+3. Set the source to **Deploy from a branch**, select `main`, and choose `/(root)`.
+
+The Vite base path is configured for the `Employee-management-system` repository.
+
+## Development
+
+Run `npm run dev` to start the local development server. Run `npm run build` to generate the production site in the repository root.
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
