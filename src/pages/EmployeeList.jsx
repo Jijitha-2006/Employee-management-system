@@ -514,8 +514,6 @@ const EmployeeList = ({ setData }) => {
 
                   
                 /> */}
-                
-
                   <select
                     value={order}
                     onChange={(e) => {
@@ -523,7 +521,7 @@ const EmployeeList = ({ setData }) => {
                       setCurrentPage(1);
                     }}
                     className="
-    bg-input text-foreground
+    bg-white dark:bg-slate-800 text-foreground
     border border-border
     px-3 py-2
     h-[2.4rem] w-full
